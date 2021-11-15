@@ -15,9 +15,58 @@ One of the powerful features of the layered architecture pattern is the separati
 # References
 
 - Richards, M. (2015). Software architecture patterns (Vol. 4). 1005 Gravenstein Highway North, Sebastopol, CA 95472: O'Reilly Media, Incorporated.
+- Martin, R. C., Grenning, J., & Brown, S. (2018). Clean architecture: a craftsman's guide to software structure and design (No. s 31, pp. 57-91). Prentice Hall.
 - https://enqueuezero.com/layered-architecture.html
+- https://medium.com/@alameerashraf/nodejs-a-clean-architecture-931898b00d68
+
+# Folder Structure using Layerd Architecture
+
+Separate concerns among components:
+
+```
+my-project/
+├── node_modules/
+├── config/
+│   ├── utils.js
+├── components/
+├── modules/
+│   │   ├── profile/
+│   │   │   ├── routesProfile.js
+│   │   │   ├── serviceProfile.js
+│   │   │   ├── dalProfile.js
+│   │   │   ├── index.js
+│   │   ├── ...
+├── pages/
+│   ├── profile.js
+│   ├── index.js
+├── public/
+│   ├── styles.css
+├── app.js
+├── routes.js
+├── package.json
+├── package-lock.json
+└── README.md
+```
+Package by Layer:
+
+```
+my-project/
+├── node_modules/
+├── api/
+├── aplication/
+├── common/
+├── infrastructure/
+├── loaders/
+├── models/
+├── services/
+├── server.js
+├── package.json
+├── package-lock.json
+└── README.md
+```
 
 # Generate Slides
+
 To generete the slides just enter the following command in the project folder:
 
 ```sh

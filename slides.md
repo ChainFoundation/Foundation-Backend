@@ -60,4 +60,4 @@ Request from a business user to retrieve customer information for a particular i
 
 ---
 
-# Project Structure in NodeJS project
+# NodeJS Project Folder structure
