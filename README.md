@@ -11,6 +11,7 @@ One of the powerful features of the layered architecture pattern is the separati
 # Diagram
 
 ![](images/diagram.png)
+![](images/diagram2.png)
 # References
 
 - Richards, M. (2015). Software architecture patterns (Vol. 4). 1005 Gravenstein Highway North, Sebastopol, CA 95472: O'Reilly Media, Incorporated.
